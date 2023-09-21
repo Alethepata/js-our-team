@@ -1,5 +1,7 @@
 console.log('ciao');
 
+const content = document.querySelector('div');
+
 const team = [
 
     {
@@ -41,11 +43,6 @@ const team = [
 ]
 
 for( let member of team ){
-    
-    for(let key in member){
-
-      console.log(member[key]);
-
-    }
+    content.innerHTML += ` <div class="my-5">${member.name} <br> ${member.role} <br> ${member.image}</div>`;
 
 }
