@@ -43,7 +43,14 @@ const team = [
 ]
 
 for( let member of team ){
-     content.innerHTML += ` <div class="card">${member.name} <br> ${member.role} <br> ${member.image}</div>`;
+     content.innerHTML += 
+     ` <div class="card size rounded-0 border-0">
+          <img  src="img/${member.image}">
+          <div class="card-body">
+          <h3>${member.name}</h3>  
+          <span>${member.role}</span> 
+          </div>
+      </div>`;
 
 
 }
