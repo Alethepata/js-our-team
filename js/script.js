@@ -47,8 +47,8 @@ for( let member of team ){
      ` <div class="card size rounded-0 border-0">
           <img  src="img/${member.image}">
           <div class="card-body">
-          <h3>${member.name}</h3>  
-          <span>${member.role}</span> 
+          <h4 class="color">${member.name}</h4>  
+          <span class= "color">${member.role}</span> 
           </div>
       </div>`;
 
