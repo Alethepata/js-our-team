@@ -38,11 +38,12 @@ const team = [
         name: 'Barbara Ramos',
         role: 'Graphic Designer',	
         image: 'barbara-ramos-graphic-designer.jpg',
-    },
+    }
 
 ]
 
 for( let member of team ){
-    content.innerHTML += ` <div class="my-5">${member.name} <br> ${member.role} <br> ${member.image}</div>`;
+     content.innerHTML += ` <div class="card">${member.name} <br> ${member.role} <br> ${member.image}</div>`;
+
 
 }
