@@ -31,7 +31,7 @@ const team = [
         role: 'Developer',	
         image: 'scott-estrada-developer.jpg',
     },
-    
+
     {
         name: 'Barbara Ramos',
         role: 'Graphic Designer',	
@@ -39,3 +39,13 @@ const team = [
     },
 
 ]
+
+for( let member of team ){
+    
+    for(let key in member){
+
+      console.log(member[key]);
+
+    }
+
+}
