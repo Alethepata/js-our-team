@@ -1,5 +1,4 @@
-.card{
+.size{
     width: calc(100% / 4);
     margin: 20px;
-    padding: 50px;
 }
