@@ -1,6 +1,6 @@
 console.log('ciao');
 
-const content = document.querySelector('div');
+const content = document.getElementById('content');
 
 const team = [
 
